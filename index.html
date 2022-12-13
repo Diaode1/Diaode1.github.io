@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <img src="ffd.jpg" alt="激情照片" title="b站up主" width=600 length=960 usemap="#mymap" />
+    <map name="mymap">
+        <area shape="rect" coords="176,10,435,376" href="https://space.bilibili.com/8366990?spm_id_from=333.337.0.0"
+            alt="" target="_blank" />
+        <area shape="circle" coords="535,111,22" href="https://www.baidu.com/baidu?tn=monline_3_dg&ie=utf-8&wd=%E8%9C%BB%E8%9C%93"
+            alt="" target="_blank" />
+    </map>
+        <!--
+        <script> 
+            function mouseMove(ev) 
+            { 
+                Ev= ev || window.event; 
+                var mousePos = mouseCoords(ev); 
+                //获取当前的x,y坐标
+                document.getElementById("xxx").value = mousePos.x; 
+                document.getElementById("yyy").value = mousePos.y; 
+            } 
+            function mouseCoords(ev) 
+            { 
+                //鼠标移动的位置
+                if(ev.pageX || ev.pageY){ 
+                    return {x:ev.pageX, y:ev.pageY}; 
+                } 
+                return{ 
+                    x:ev.clientX + document.body.scrollLeft - document.body.clientLeft, 
+                    y:ev.clientY + document.body.scrollTop - document.body.clientTop 
+                }; 
+            } 
+            document.onmousemove = mouseMove; 
+            </script> 
+            鼠标X轴: 
+            <input id=xxx type=text> 
+            鼠标Y轴: 
+            <input id=yyy type=text>
+        </script>-->
+    <table border="0" cellspacing="2" cellpadding="10"
+        align="left" bgcolor="#333">
+        <tr bgcolor="#fff">
+            <td>姓名</td>
+            <td>年龄</td>
+            <td>性别</td>
+        </tr>
+        <tr bgcolor="#fff">
+            <td width="100">刘哲旭</td>
+            <td width="50">18</td>
+            <td width="50">男</td>
+        </tr>
+    </table>
+</body>
+</html>
